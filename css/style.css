@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #000;
+  padding: 30px 0;
+}
+header ul li a {
+  text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+header ul li a{
+  color: #fff;
+}
+.leftside{
+  width: 250px;
+}
+ .leftside ul li{
+   text-decoration: none;
+   list-style: none;
+   color: #fff;
+   display: inline-block;
+   vertical-align: middle;
+}
+.leftside ul li>a:hover{
+  color: #fff;
+  opacity: 0.6;
+}
+.rightside ul li > a:hover{
+  color: #fff;
+  opacity: 0.6;
+}
+ .leftside ul li + li ,.rightside ul li + li {
+   padding-left: 20px;
+ }
+.logo img{
+  width: 180px;
+  height: 50px;
+  object-fit: contain;
+}
+.rightside{
+  width: 250px;
+}
+ .rightside ul li{
+     text-decoration: none;
+     list-style: none;
+     color: #fff;
+     display: inline-block;
+
+}
+.section_banner{
+  background-image:url('../image/bann.jpg');
+  background-size: cover;
+  width: 100%;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1{
+  font-size:53px;
+  color: #fd7e14;
+}
+.btnstyle{
+  text-decoration: none;
+  padding: 12px 30px;
+  color: #000;
+  background-color: white;
+  }
+  .bannerContent h1{
+    color: #865427;
+    font-family: Rubik;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 51px;
+    letter-spacing: .01em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+
+  .atag{
+    padding: 30px;
+  }
+  .btnstyle:hover{
+    background-color: rgba(255,255,255,0.8);
+    color: #000;
+  }
+  .toggleStyle {
+    width: 30px;
+    height: 14px;
+  }
+  .bar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    transition: all 300ms ease-in-out 0s;
+  }
+    .bar + .bar {
+      margin-top: 5px;
+    }
+    .banner_services{
+      background-color:#875427;
+      padding: 30px 0;
+    }
+    .bannerservices h1{
+      color:#fff;
+    }
+    .btnstyle1{
+      text-decoration: none;
+      border: 1px solid;
+      padding:  21px 34px;
+      color: #000;
+      background-color: white;
+      }
+      .atag1{
+        padding: 21px 34px;
+      }
+      .btnstyle1:hover{
+        background-color:#c9c9c5;
+        color:#000;
+      }
+      .image_booster {
+        position: relative;
+      }
+      .image_booster img{
+       width: 400px;
+       height: 400px;
+       object-fit: contain;
+      }
+    .btnstyle2{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background-color:#fff;
+    color: #000;
+   }
+   .servicebtn .btnstyle2 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% , -50%);
+   }
+   .image_booster  .servicebtn .btnstyle2 {
+     opacity: 0;
+     transition: all 300ms ease-in-out 0s;
+   }
+   .image_booster:hover  .servicebtn .btnstyle2 {
+     opacity: 1;
+   }
+   .change_future{
+     padding-top: 40px;
+   }
+   .clear_up img{
+     width: 300px
+     height: 200px;
+     object-fit: contain;
+   }
+   .clear_up h2{
+     text-align: center;
+     font-size: 30px;
+     padding-top: 20px;
+     font-weight: 400;
+     font-family: 600;
+   }
+   .clear_up p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #000;
+     text-align: center;
+}
+.btnstyle3 {
+    text-decoration: none;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px 26px;
+    background-color:#875427;
+    color: #fff;
+}
+.learnmore{
+  text-align: center;
+  padding-top: 30px;
+}
+.btnstyle3:hover{
+  background-color: #fff;
+}
+.section_education{
+  background-color:#875427;
+  padding: 30px 0;
+  margin-top:90px;
+}
+.education h1{
+  text-align: center;
+  color: white;
+  font-family: 400;
+  font-size: 45px;
+}
+.education p{
+  color: #fff;
+  margin-left:20px;
+}
+.education ul li::before{
+  content:"\2022";
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 20px;
+  color: #fff;
+}
+.education ul li{
+  position: relative;
+  padding-left: 20px;
+  margin: 10px;
+  color: #fff;
+}
+.btnstyle4 {
+    text-decoration: none;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 21px 34px;
+    background-color:#875427;
+    color: #000;
+}
+.shopnew{
+  text-align: center;
+  padding-top: 30px;
+}
+.btnstyle4:hover{
+  background-color: #fff;
+}
+.Testimonials h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 500;
+}
+.Testimonials{
+padding: 50px 0 100px 0;
+}
+.hrdiv{
+  margin-top: 50px;
+}
+.paragraf p{
+  padding-top: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    text-transform: none;
+}
+.footer_section{
+  width: 100%;
+  padding: 80px;
+  background-color: #7e4f25;
+}
+  .icons ul li {
+    display: inline-block;
+    padding: 10px 0;
+
+
+  }
+  .icons{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .icons ul li a i {
+    color: #000;
+  }
+  .icons ul li + li {
+    padding-left: 10px;
+  }
+  .footericon ul li {
+    display: inline-block;
+    padding: 10px 0;
+
+}
+     a {
+  text-decoration: none;
+}
+
+  .footericon{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footericon ul li a:hover{
+    color: #fff;
+  }
+  .footericon ul li a:hover{
+    opacity: 0.6;
+  }
+  .footericon a{
+    color: #fff;
+  }
+  .footerh5 p {
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+}
+  .footerh5 a:hover{
+    opacity: 0.6;
+  }
+  .footerh5 a{
+    color:#fff;
+  }
+  .statescol p{
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+}
+.statescol a {
+    color: #fff;
+    margin: 6px;
+    padding: 11px 0px;
+    font-size: 19px;
+    display: inline-block;
+    align-items: center;
+}
+.statescol a:hover{
+  color: rgba(255,255,255,.5);;
+}

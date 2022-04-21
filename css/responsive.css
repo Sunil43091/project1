@@ -1,0 +1,112 @@
+
+@media (max-width:991px) {
+  .education h1 {
+    font-size: 35px;
+    padding: 20px 0;
+  }
+  .education p {
+    margin-left: -10px;
+    padding: 10px 0;
+}
+.education ul li {
+
+    line-height: 31px;
+    font-size: 18px;
+  }
+  .rightside {
+    width: 200px;
+}
+.leftside {
+  width: 200px;
+}
+.image_booster img {
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+@media (max-width:575px ) {
+
+.Testimonials h1 {
+  font-size: 28px;
+    font-family: 500;
+}
+.logo img {
+    width: 140px;
+}
+header {
+    padding: 10px 0;
+}
+.clear_up h2 {
+
+    font-size: 25px;
+    padding: 18px;
+}
+.learnmore {
+    padding-top: 0px;
+    margin: 51px;
+}
+.section_education {
+     margin-top:0px;
+}
+.image_booster img {
+    width: 100%;
+}
+}
+@media (max-width:480px){
+  .image_booster img {
+   width:460px;
+}
+}
+
+@media (max-width:767px){
+  .image_booster img {
+      width: 100%;
+  }
+.Testimonials h1 {
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.clear_up img {
+    width: 100%;
+    padding-top: 44px;
+}
+}
+
+
+@media (max-width: 767px) {
+ .navbarActive .toggleStyle .bar:nth-child(1) {
+    transform: rotate(40deg);
+    top: 6px;
+  }
+  .navbarActive .toggleStyle .bar:nth-child(2) {
+     opacity: 0;
+     visibility: hidden;
+   }
+  .navbarActive .toggleStyle .bar:nth-child(3) {
+     transform: rotate(-40deg);
+     top: -7px;
+   }
+  .navigationCol {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background:#fff;
+    color: #000;
+    width: 230px;
+    padding: 20px;
+    transform: translateX(-200%);
+    transition: all 300ms ease-in-out 0s;
+    z-index: 999;
+    }
+    header .navbarCol ul li a {
+      color: #000;
+    }
+   .navbarActive .navigationCol {
+    transform: translateX(0);
+   }
+ }
